@@ -1,0 +1,7 @@
+Here are some inferences based on empirical results:
+Increase in the size helps in moving closer to the simplest representation(one hot)
+size and window values is a trade off which determines the overall accuracy of the model.
+For example increasing the window value increases the "similarity" between Kalam and scientist, whereas it reduces the similarity between Abdul and Kalam, whereas increasing the size value results in the opposite.
+Another example is with Rahul Dravid and Sachin Tendulkar as shown in the attached images.
+Its clearly seen that change in window size from 20 to 5 the similarity between Sachin and Tendulkar increases but Dravid and Bangalore decreases.
+Also the change of size from 8 to 10 substantially increased the similarity between Dravid and retirement while decreasing it between Sachin and Rahul.

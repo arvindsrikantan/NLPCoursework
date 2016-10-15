@@ -1,0 +1,12 @@
+Approach followed for event tagging :
+
+The equivalence class approach was followed, in which six MaxEnt classifiers were modeled. The equivalence classes were comprised of mutually exclusive events as follows:
+Class 1: Defended, Beaten, Left alone
+Class 2: Caught, Stumped, Bowled, LBW, Catch dropped, Stumping missed, Runout missed, Free hit
+Class 3: Runout, Bowled, Boundary by batsman, Boundary by extra, Runs by batsman, Runs by extra
+Class 4: Bouncer, Yorker
+Class 5: Great save, Poor fielding
+Class 6: Edged, Overthrow
+
+The individual accuracies are displayed in the screenshot. 
+All of the steps are as instructed.

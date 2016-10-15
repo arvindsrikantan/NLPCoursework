@@ -1,0 +1,1 @@
+Word2Vec(vocab=621, size=16, alpha=0.025)

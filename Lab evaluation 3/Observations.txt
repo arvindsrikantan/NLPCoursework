@@ -1,0 +1,4 @@
+=== OBSERVATIONS ===
+
+We ran the RNN for 1 lakh and 3 lakh iterations.
+The minimum point where system performance is best was observed at iteration number 123000 with the value of loss being 46.601.
